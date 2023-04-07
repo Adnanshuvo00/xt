@@ -27,7 +27,7 @@ proxies=open('proxies.txt','r').read().splitlines()
 
 android_models=[]
 try:
-	xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
+	xx = requests.get('https://raw.githubusercontent.com/Adnanshuvo00/xt/main/Tst.py').text.splitlines()
 	for line in xx:
 		android_models.append(line)
 except:pass
