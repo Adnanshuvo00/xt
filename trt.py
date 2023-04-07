@@ -14,7 +14,7 @@ except ModuleNotFoundError:
 	os.system('python trt.py')
 	
 print('[•] Join Whatsap Group')
-os.system('xdg-open https://chat.whatsapp.com/B8pdA0uNxH88NnC38CIgVP')
+os.system('xdg-open ')
 
 try:
 	prox= requests.get('https://raw.githubusercontent.com/Adnanshuvo00/xt/main/Tst.py').text
